@@ -8,6 +8,10 @@
 *.so
 *.dylib
 
+# IDE Files
+.idea/
+.vscode/
+
 # Test binary, built with `go test -c`
 *.test
 
@@ -23,3 +27,15 @@ go.work.sum
 
 # env file
 .env
+.env-*
+.env*
+
+# Config Files
+*.ini
+*.yaml
+*.json
+
+# Log Files
+logs/
+log/
+*.log
